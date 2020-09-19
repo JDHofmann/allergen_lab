@@ -16,8 +16,8 @@ In this project, we will be practicing object relationships in Rails. We will be
 Deliverables:
 
 Recipe
-index––show all recipe instances, with the ability to sort by number of ingredients. You can use a search for this feature
-new––ability to create a new recipe and associate it with a particular user. You may want to look into collection select
+<!-- index––show all recipe instances, with the ability to sort by number of ingredients. You can use a search for this feature
+new––ability to create a new recipe and associate it with a particular user. You may want to look into collection select -->
 
 User
 show page for a user. This should include all of the recipes that a user has authored.
