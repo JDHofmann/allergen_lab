@@ -1,5 +1,8 @@
+<%= render "navbar" %>
+<div class="container text-center">
 <h1> Recipe </h1>
 
 <% @recipes.each do |r|%>
 <p>  <%= link_to r.name, recipe_path(r)%> </p>
 <% end %>
+</div>

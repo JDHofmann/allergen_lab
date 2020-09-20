@@ -1,5 +1,8 @@
+<%= render "navbar" %>
+<div class="container text-center">
 <h1>Users</h1>
 
 <% @users.each do |u|%>
 <p>  <%= link_to u.name, user_path(u)%> </p>
 <% end %>
+</div>
